@@ -1,0 +1,62 @@
+{
+  "customerName": "John Doe",
+  "items": [
+      {
+      "name": "Product A",
+      "description": "Description of Product A",
+      "price": 10.99,
+      "currency": "EURO",
+      "quantity": 2,
+      "options": [
+        {
+          "optionName": "Size",
+          "optionValue": "Large"
+        },
+        {
+          "optionName": "Color",
+          "optionValue": "Red"
+        }
+      ]
+    },
+    {
+      "name": "Product C",
+      "description": "Description of Product C",
+      "price": 22.99,
+      "currency": "DOLLAR",
+      "quantity": 1,
+      "options": [
+        {
+          "optionName": "Size",
+          "optionValue": "Medium"
+        }
+      ]
+    },
+    {
+      "name": "Product E",
+      "description": "Description of Product E",
+      "price": 19.99,
+      "currency": "POUND",
+      "quantity": 3,
+      "options": [
+        {
+          "optionName": "Size",
+          "optionValue": "Small"
+        },
+        {
+          "optionName": "Color",
+          "optionValue": "Blue"
+        },
+        {
+          "optionName": "Material",
+          "optionValue": "Cotton"
+        }
+      ]
+    }
+  ],
+  "shippingAddress": {
+    "street": "Avenida da rua nº3",
+    "city": "Porto",
+    "countryCode": "PT",
+    "zipCode": "4000-123"
+  }
+}

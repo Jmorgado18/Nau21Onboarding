@@ -1,0 +1,55 @@
+{
+  "reference": "uuid-v4",
+  "customerName": "John Doe",
+  "shippingAddress": "Avenida da rua nº3, 4000-123 Porto - Portugal",
+  "items": [
+      {
+      "name": "Product A",
+      "description": "Description of Product A",
+      "price": "10,99€",
+      "quantity": 2,
+      "options": [
+        {
+          "optionName": "Size",
+          "optionValue": "Large"
+        },
+        {
+          "optionName": "Color",
+          "optionValue": "Red"
+        }
+      ]
+    },
+    {
+      "name": "Product C",
+      "description": "Description of Product C",
+      "price": "$22,99",
+      "quantity": 1,
+      "options": [
+        {
+          "optionName": "Size",
+          "optionValue": "Medium"
+        }
+      ]
+    },
+    {
+      "name": "Product E",
+      "description": "Description of Product E",
+      "price": "19,99£",
+      "quantity": 3,
+      "options": [
+        {
+          "optionName": "Size",
+          "optionValue": "Small"
+        },
+        {
+          "optionName": "Color",
+          "optionValue": "Blue"
+        },
+        {
+          "optionName": "Material",
+          "optionValue": "Cotton"
+        }
+      ]
+    }
+  ]
+}
